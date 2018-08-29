@@ -23,8 +23,13 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(20)).to eq 'buzz'
   end
 
-  it 'returns "FizzBuzz" when passed number divisible by 3 and 5 - max of 20' do
+  it 'returns "FizzBuzz" when passed number divisible by 3 and 5 - max of 100' do
     expect(fizzbuzz(15)).to eq 'FizzBuzz'
+    expect(fizzbuzz(30)).to eq 'FizzBuzz'
+    expect(fizzbuzz(45)).to eq 'FizzBuzz'
+    expect(fizzbuzz(60)).to eq 'FizzBuzz'
+    expect(fizzbuzz(75)).to eq 'FizzBuzz'
+    expect(fizzbuzz(90)).to eq 'FizzBuzz'
   end
 
   it 'returns "number" when passed number NOT divisible by 3 or 5 or both - max of 20' do
@@ -40,4 +45,5 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(17)).to eq 17
     expect(fizzbuzz(19)).to eq 19
   end
+
 end
