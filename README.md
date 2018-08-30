@@ -1,6 +1,6 @@
 # fizzBuzz
 
-FizzBuzz done through TDD as well as pair programming. Worked with Aidan Faria from September 2018 Cohort.
+FizzBuzz done through TDD as well as pair programming. Worked with [Aidan Faria](https://github.com/NadiaAiraf) from September 2018 Cohort.
 
 ## Getting started
 
