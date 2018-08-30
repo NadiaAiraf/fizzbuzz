@@ -45,5 +45,4 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(17)).to eq 17
     expect(fizzbuzz(19)).to eq 19
   end
-
 end
